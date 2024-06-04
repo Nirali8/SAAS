@@ -1,0 +1,47 @@
+nav {
+  background-color: aqua;
+  height: 30%;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+}
+nav ul {
+  text-align: center;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  background-color: red;
+}
+
+p {
+  font-size: 50px;
+}
+
+h2 {
+  background-color: green;
+}
+
+h3 {
+  background-color: red;
+  font-size: 50px;
+}
+
+h4 {
+  background-color: green;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

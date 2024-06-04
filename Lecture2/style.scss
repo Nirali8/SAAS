@@ -1,0 +1,54 @@
+nav {
+    background-color: aqua;
+    height: 30%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+
+    ul {
+        text-align: center;
+        padding: 10px;
+
+
+        li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+}
+
+$bg-color: red;
+$font-size: 50px;
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    background-color: $bg-color;
+}
+
+p {
+    font-size: $font-size;
+}
+
+h2 {
+    $bg-color: green;
+    background-color: $bg-color;
+}
+
+h3 {
+    background-color: $bg-color;
+    font-size: $font-size;
+    $bg-color: green !global;
+}
+
+h4 {
+    background-color: $bg-color;
+    font-size: 30px;
+}
