@@ -1,0 +1,28 @@
+@import "_variable";
+
+h1 {
+    @include mixin-demo;
+}
+
+h2 {
+    @include mixin-demo1(yellow);
+}
+
+h3 {
+    @include mixin-demo2(cyan, 30px)
+}
+
+h4 {
+    background-color: $red_color;
+    color: aqua;
+}
+
+h5 {
+    color: $red_color;
+    background-color: aqua;
+}
+
+h6 {
+    color: brown;
+    background-color: chartreuse;
+}

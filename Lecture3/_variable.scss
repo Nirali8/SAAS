@@ -1,0 +1,26 @@
+$red_color: red;
+$white_color: white;
+
+@mixin mixin-demo {
+    color: $white_color;
+    background-color: $red_color;
+    border: 1px solid blue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+@mixin mixin-demo1($color) {
+    color: $color;
+    background-color: $red_color;
+    border: 1px solid blue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+@mixin mixin-demo2($color , $size) {
+    color: $color;
+    background-color: $red_color;
+    border: 1px solid blue;
+    font-weight: bolder;
+    font-size: $size;
+}

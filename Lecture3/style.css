@@ -1,0 +1,40 @@
+h1 {
+  color: white;
+  background-color: red;
+  border: 1px solid blue;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+h2 {
+  color: yellow;
+  background-color: red;
+  border: 1px solid blue;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+h3 {
+  color: cyan;
+  background-color: red;
+  border: 1px solid blue;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h4 {
+  background-color: red;
+  color: aqua;
+}
+
+h5 {
+  color: red;
+  background-color: aqua;
+}
+
+h6 {
+  color: brown;
+  background-color: chartreuse;
+}
+
+/*# sourceMappingURL=style.css.map */
