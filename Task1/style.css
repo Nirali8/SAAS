@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+nav h1 {
+  padding-top: 8px;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+nav ul {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+.midpart {
+  background-image: url(Soothing-nature-backgrounds-2.jpg.webp);
+  height: 600px;
+  text-align: center;
+}
+.midpart div {
+  display: flex;
+  justify-content: center;
+}
+.midpart .h1 {
+  padding-top: 10%;
+  word-spacing: 5px;
+  color: white;
+}
+.midpart .design {
+  color: blue;
+  padding-right: 15px;
+}
+.midpart .skill {
+  color: white;
+}
+.midpart p {
+  margin: auto;
+  width: 50%;
+  color: white;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.midpart .read-more {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+.midpart .read-more:hover {
+  background-color: white;
+  color: red;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+footer td {
+  padding: 10px;
+}
+footer div {
+  margin: 10%;
+}
+footer h4 {
+  padding-bottom: 20px;
+}
+footer p {
+  padding-bottom: 20px;
+  width: 50%;
+}
+footer i {
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
